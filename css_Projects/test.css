@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main header styles */
+  .main-header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Add padding above and below the header */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px; /* Limit container width */
+    margin: 0 auto; /* Center container horizontally */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  /* Logo styles */
+  .logo img {
+    height: 40px; /* Adjust height as needed */
+  }
+  
+  /* Buttons styles */
+  .buttons button {
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color */
+    padding: 8px 16px; /* Add padding to buttons */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius */
+    margin-left: 10px; /* Add spacing between buttons */
+  }
+  
+  /* Hover styles for buttons */
+  .buttons button:hover {
+    background-color: #ddd; /* Light gray background color on hover */
+    color: #333; /* Dark text color on hover */
+  }
+  

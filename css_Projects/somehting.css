@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.908);
+}
+
+.whats-happening, .situation-severity{
+    background-color: black;
+    color:white;
+    margin-bottom: 2px;
+}
+
+
+.whats-happening{
+    padding: 3em 1.4em;
+}
+
+.situation-severity{
+    padding-top: 1.3em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.whats-happening img,
+.situation-severity img{
+    width: 50vh;
+    height: 32vh;
+    margin-top: 1.8em;
+    
+}
+
+
+.whats-happening img{
+    float: right;
+    margin-left: 1em;
+}
+
+
+.situation-severity img{
+    float: left;
+    margin-right: 1em;
+}
+
+.whats-happening h2,
+.situation-severity h2{
+    padding-bottom: 1.1em;
+}
+
+
+.victims-container{
+    background-color: rgb(136, 8, 8);
+    padding: 2em 1.4em;
+}
+
+.stats{
+    display: flex;
+}
+
+
+#test{
+    text-align: center;
+    padding-bottom: 1.2em;
+}
+
+.victims{
+    text-align: center;
+    margin-right: 2em;
+}
+
+.victims:last-child{
+    margin-right: 0;
+}
+
+.victims-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.victims-container p{
+    margin: 5px 0 0;
+}
+
+.victims h2{
+    padding: 10px 0;
+}
+
+
+.victims-container:hover +.situation-severity{
+    background-color: blue;
+}

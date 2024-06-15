@@ -1,0 +1,320 @@
+@font-face {
+    font-family: "dancing script";
+    src: url("/html_Projects/Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+html, body{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.94);
+    height: 100%;
+    margin: 0;
+}
+
+::selection{
+    background-color: #880808;
+}
+
+
+.top-header{
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo{
+    width: 12%;
+    height: 75%;
+    padding-left: 20px;
+}
+
+.buttons button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+
+
+.buttons{
+    display: flex;
+    gap: 10%;
+    padding-top:7px;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    border-color: black;
+    box-shadow: 0 0 10px red;
+    transform: scale(1.06);
+}
+
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-one{
+    overflow: hidden;
+    display: flex;      
+    width: 100%;
+    height: 80%;
+    margin-bottom:2px;
+    background-image: url("/html_Projects/images/AP23284637421848-1-1697090360.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main-title{
+    padding-left: 100px;
+    width: 600px;
+    height: 180px;
+    font-size: 50px;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 0 50px;
+}
+
+.paragraph{
+    color: grey;
+    padding-left: 100px;
+}
+
+.starting{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.starting button{
+    width: 140px; 
+    height: 45px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.687);
+    color: rgba(0, 0, 0, 0.916);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.starting button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
+.section-two{
+    overflow: hidden;
+    padding-bottom: 60px;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 2px;
+    padding-top: 30px;
+    background-color: #880808ce;
+    color: rgb(0, 0, 0);
+}
+
+
+.section-two::selection{
+    background-color: #ffffff;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#victims{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dead{
+    width: 33%;
+    text-align: center;
+}
+
+
+.injured{
+    width: 33%;
+    text-align: center;
+}
+
+.children{
+    width: 33%;
+    text-align: center;
+}
+
+.dead img{
+    width: 20%;
+}
+
+.injured img{
+    width: 20%;
+}
+
+.children img{
+    width: 20%;
+}
+
+
+.section-three, .section-four{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 2px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.section-three{
+    justify-content: space-between;
+}
+
+.section-three img{
+    width: 25%;
+    height: 25%;
+}
+
+.summary{
+    color: white;
+}
+
+
+
+
+.section-four{
+    height: 40%;
+}
+.summary2 {
+    color: white;
+    padding-left: 30px;
+}
+
+
+.section-four img{
+    width: 30%;
+    height: 100%;
+}
+
+
+.section-five{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    height: 45%;
+    padding: 20px;
+    justify-content: right;
+    background-image: url("/html_Projects/images/AP23355564856870-1703366159.jpg");
+    background-position: left;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+}
+
+
+.section-six{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.alternative-help{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+
+.section-seven{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    height: 50%;
+    padding: 20px;
+    margin-bottom: 2px;
+    background-image: url("/html_Projects/images/Brands\ to\ boycott.jpg");
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.section-eight{
+    overflow: hidden;
+    height: 40%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section-eight::before{
+    content: "";
+    background-image: url("/html_Projects/images/AA-20220820-28691570-28691568-DAILY_LIFE_IN_GAZA.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.call-to-action{
+    padding-top: 70px;
+    isolation: isolate;
+}
+
+.call-to-action h2{
+    font-family: "dancing script";
+    font-size: 40px;
+}
+
+.call-to-action button{
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;   
+    font-size: 30px;
+    font-weight: bold;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.657);
+}
+
+.call-to-action button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px white;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+.test{
+    background-color: red;
+}
